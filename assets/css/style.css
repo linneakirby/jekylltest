@@ -7,6 +7,11 @@ body {
     margin-right: 30%;
 }
 
+.menu {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .menu a{
     background-color: #f44336;
     color: white;
@@ -16,13 +21,19 @@ body {
     display: inline-block;
 }
 
-ul {
+.menu ul {
     background: #3399ff;
     padding: 20px;
 }
 
-ul li {
+.menu ul li {
     background: #cce5ff;
     margin: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu a:hover, a:active {
+    background-color: yellow;
 }
 
