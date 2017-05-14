@@ -17,13 +17,13 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <ul>
+        <ul class="menu">
         {% for page in site.pages %}
           <li><a href="{{ site.url }}/jekylltest{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
         </ul>
         
-        <ul>
+        <ul class="menu">
           {% for post in site.posts %}
             <li>
               <a href="{{ site.url }}/jekylltest{{ post.url }}">{{ post.title }}</a>
