@@ -33,6 +33,7 @@ body {
     margin: 5px;
     display: inline-block;
     list-style: none;
+    border: 3px solid teal; 
 }
 
 .menu a:hover, a:active {
