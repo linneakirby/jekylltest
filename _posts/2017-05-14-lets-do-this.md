@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Let's Do This
 categories: test comic
 ---
