@@ -19,14 +19,14 @@
         
         <ul>
         {% for page in site.pages %}
-          <li><a href="{{ site.url }}/jekylltest/{{ page.url }}">{{ page.title }}</a></li>
+          <li><a href="{{ site.url }}/jekylltest{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
         </ul>
         
         <ul>
           {% for post in site.posts %}
             <li>
-              <a href="{{ site.url }}/jekylltest/{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ site.url }}/jekylltest{{ post.url }}">{{ post.title }}</a>
             </li>
           {% endfor %}
         </ul>
