@@ -24,6 +24,8 @@ body {
 .menu ul {
     background: #3399ff;
     padding: 20px;
+    display: inline-block;
+    list-style: none;
 }
 
 .menu ul li {
@@ -35,5 +37,6 @@ body {
 
 .menu a:hover, a:active {
     background-color: yellow;
+    color: black;
 }
 
